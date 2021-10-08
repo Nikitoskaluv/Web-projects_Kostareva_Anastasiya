@@ -3,7 +3,11 @@ import { printOutput } from './printOutput.js';
 import getDatesDiff from './getDateDiff.js';
 import { switchFunc } from './switcher.js';
 import { startTimer, pauseTimer, resumeTimer, refreshTimer } from './timer.js';
-import '/calculator/node_modules/howler/dist/howler.js';
+import '../node_modules/howler/dist/howler.js';
+import '../img/calendar.png';
+import '../img/stopwatch.png';
+import '../sounds/bell.mp3';
+import '../css/styles.scss';
 
 
 
